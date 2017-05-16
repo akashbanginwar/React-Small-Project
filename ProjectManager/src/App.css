@@ -1,0 +1,37 @@
+.App{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.App-logo{
+  animation: App-logo-spin infinite 5s linear;
+  height:80px;
+}
+
+.project-manager{
+  text-align: left;
+  font-family: Verdana;
+  padding-left: 20px;
+}
+
+.Project{
+  margin-top: 15px;
+}
+
+.Todo{
+  padding-left: 20px;
+}
+.todo-list{
+  font-family: inherit;
+  font-size: 15px;
+}
+
+
+@keyframes App-logo-spin {
+  from{ transform: rotate(0deg);}
+  to{ transform: rotate(360deg);}
+
+}
